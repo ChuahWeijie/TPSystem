@@ -21,6 +21,7 @@ PreparedStatement pst=null;
         initComponents();
         con= Connect.ConnectDB();
         Get_Data();
+        
         setLocationRelativeTo(null);
     }
   private void Get_Data(){
