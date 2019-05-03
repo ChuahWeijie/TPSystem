@@ -275,7 +275,9 @@ PreparedStatement pst=null;
             String sql= "Update Company set Companyname='"+ txtCompanyName.getText() + "',Address='" + txtAddress.getText() + "',ContactNo='" + txtContactNo.getText() + "',Website='" + txtWebsite.getText() + "' where CompanyID= " + txtCompanyID.getText() + "";
             pst=con.prepareStatement(sql);
             pst.execute();
+            
             JOptionPane.showMessageDialog(this,"Successfully updated","Record",JOptionPane.INFORMATION_MESSAGE);
+            
             btnUpdate.setEnabled(false);
             }catch(HeadlessException | SQLException ex){
             JOptionPane.showMessageDialog(this,ex);
