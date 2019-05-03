@@ -121,7 +121,6 @@ private void Get_data()
         jLabel29.setText("Student Name");
 
         txtStudentName.setEditable(false);
-
         jLabel31.setText("Session");
 
         txtSession.setEditable(false);
