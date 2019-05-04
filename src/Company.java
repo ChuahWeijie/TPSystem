@@ -13,9 +13,6 @@ public class Company extends javax.swing.JFrame {
 Connection con=null;
 ResultSet rs=null;
 PreparedStatement pst=null;
-    /**
-     * Creates new form Company
-     */
     public Company() {
         initComponents();
         setLocationRelativeTo(null);
