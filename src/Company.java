@@ -9,15 +9,6 @@ import java.sql.Statement;
 import java.util.Locale;
 import javax.swing.JOptionPane;
 
-/*
- * To change this template, choose Tools | Templates
- * and open the template in the editor.
- */
-
-/**
- *
- * @author Raj
- */
 public class Company extends javax.swing.JFrame {
 Connection con=null;
 ResultSet rs=null;
